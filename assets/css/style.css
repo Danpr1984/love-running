@@ -292,6 +292,13 @@ footer {
     hr {
         display: none;
     }
+
+    #times > div {
+        padding: 0;
+        width:100%;
+        clear:both;
+        height: 150px;
+    }
 }
 
 /* For larger to medium screens size from 950px wide and down (SMARTPHONES)*/
@@ -305,4 +312,28 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     } 
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        padding: 20px;
+        text-align: center;
+    }
 } 
